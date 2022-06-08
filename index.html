@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joaquin Lopez">
+    <meta name="keywords" content="pasteleria, tortas, postres">
+    <meta name="description" content="Emprendimiento de pasteleria y reposteria">
+
+    <!--Inserte el link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Nuestra hoja de estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icono.png">
+    <title>Emprendimiento Dulce y Salado</title>
+</head>
+
+<body>
+    <header class="container-fluid mi-header">
+        <div id="logo">
+            <img src="img/logo.png" alt="descripcion de la imagen">
+        </div>
+        <nav class="menu">
+            <div>
+                <a class="a-menu" href="">Inicio</a>
+            </div>
+            <div>
+                <a class="a-menu" href="">Nosotros</a>
+            </div>
+            <div>
+                <a class="a-menu" href="">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid seccion1">
+
+        <article class="articulo1">
+
+            <div>
+                <h1>Lo Dulce</h1>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/tartas.jpg" class="d-block w-100" alt="tartas">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/postres.jpg" class="d-block w-100" alt="postres">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/bombones.jpg" class="d-block w-100" alt="bombones">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="alertas">
+                <div class="alert alert-warning col-lg-3 col-md-6 col-sm-12 mi-alerta" role="alert">
+                    <p>Los sabores disponibles de las tartas son: Coco, Toffi, Ricota y Frutales, su precio es de $600 cada una. Imperdible!</p>
+                </div>
+                <div class="alert alert-warning col-lg-3 col-md-6 col-sm-12 mi-alerta" role="alert">
+                    <p>Los postres en pote traen los sabores de: Chocotorta, Frutilla y Oreo a menos de $400!</p>
+                </div>
+                <div class="alert alert-warning col-lg-3 col-md-6 col-sm-12 mi-alerta" role="alert">
+                    <p>Una caja de bombones surtidos (Frutilla, Dulce de Leche, Almendras y Bananita Dolca) a $600.</p>
+                </div>
+                <div class="alert alert-warning col-lg-3 col-md-6 col-sm-12 mi-alerta" role="alert">
+                    <p>Te podes llevar una seleccion de masas finas a tan solo $300 la docena.</p>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="articulo1-img row">
+            <!--Hacer responsivo-->
+            <div id="img-seccion1"> 
+                <img src="img/bombones.jpg" alt="bombones">
+                <img src="img/masas.jpg" alt="masas" height="320px">
+                <img src="img/postres.jpg" alt="postres">
+                <img src="img/tartas.jpg" alt="tartas">
+            </div>
+
+        </article>
+    </section>
+
+    <section class="seccion2 container-fluid">
+        <article class="articulo2 row">
+            
+            <div class="subtitulo-sec2">
+                <h2>ALGO SALADO</h2>
+            </div>
+
+            <div class="tarjetas row">
+                <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="img/canastitas.jpg" class="card-img-top" alt="canastitas">
+                    <div class="card-body">
+                      <p class="card-text">Unas deliciosas canastitas para disfrutar a $300 la docena.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="img/empanadas.jpg" class="card-img-top" alt="empanadas">
+                    <div class="card-body">
+                      <p class="card-text">Empanadas fritas o al horno, como las prefieras a $600 la docena.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="img/picadas.jpg" class="card-img-top" alt="picadas">
+                    <div class="card-body">
+                      <p class="card-text">Una buena picada para disfrutar en compañia a tan solo $500 cada una.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 col-md-6 col-sm-12">
+                    <img src="img/sandwiches.jpg" class="card-img-top" alt="sandwiches">
+                    <div class="card-body">
+                      <p class="card-text">Los clasicos sandwiches de miga a $450 la docena.</p>
+                    </div>
+                  </div>
+            </div>
+
+        </article>
+    </section>
+
+    <section class="seccion3 container-fluid">
+        <article class="articulo3 row">
+
+            <div class="formu-text">
+                <h3>Realizar Pedido</h3>
+            </div>
+
+            <div class="formulario col-lg-5 col-md-5 col-sm-12">
+                
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre:</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Dirección:</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Pedido:</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                <div>
+                    <input class="btn btn-primary enviar" type="submit" value="Enviar">
+                </div>
+
+            </div>
+
+            <div class="ubicacion col-lg-5 col-md-5 col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.0591992020672!2d-58.65970907075664!3d-34.699206896185316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc127b3a3ac9d%3A0xaa24468c3913f332!2sAtahualpa%201917%2C%20B1716IWE%20Libertad%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1654706387835!5m2!1ses-419!2sar" width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </article>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="mi-footer row">
+
+            <div class="footer-img col-lg-2 col-md-12 col-sd-12">
+                <img src="./img/logo.png" alt="descripcion">
+            </div>
+
+            <div class="datos-footer col-lg-2 col-md-12 col-sd-12">
+                <p>Reposteria "La Cereza"</p>
+                <p>Tel: 1122334455</p>
+                <p>Dirección: Atahualpa 1917. Libertad, Merlo</p>
+            </div>
+
+            <div class="descripcion-footer col-lg-4 col-md-12 col-sd-12">
+                <p>Copyright © 2019-2022</p>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <!--Inserte los script de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
